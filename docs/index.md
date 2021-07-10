@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# Formlaez
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Formlaez là nền tảng hỗ trợ chuyển đổi số, số hóa biểu mẫu điện tử hàng đầu Việt Nam. Cung cấp bộ công cụ trực tuyến trên nền tảng web giúp bạn dễ dàng tạo ra các biểu mẫu điện tử một cách nhanh chóng và đơn giản.
 
-## Commands
+## Tính năng và trường hợp sử dụng
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Bạn có thể tham khảo các tính năng [tại đây](https://formlaez.com/features/)
 
-## Project layout
+Bạn cũng có thể tham khảo các trường hợp sử dụng của [tại đây](https://formlaez.com/use-cases/)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+## Liên hệ
+
+Mọi ý kiến đóng góp, thắc mắc,... vui lòng liên hệ với chúng tôi để được trợ giúp.
+
+[Liên hệ ngay](https://formlaez.com/contact){ .md-button }

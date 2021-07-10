@@ -1,2 +1,35 @@
 site_name: Formlaez
 site_url: https://formlaez.com/
+markdown_extensions:
+  - attr_list
+  - def_list
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+theme:
+  name: 'material'
+  logo: https://formlaez.com/wp-content/uploads/2021/07/formlaez.svg
+  language: vi
+  font:
+    text: Roboto
+  features:
+    - navigation.tabs
+    - navigation.sections
+
+nav:
+  - Trang chủ: index.md
+  - Hướng dẫn:
+    - Giới thiệu chung: guide/getting-started.md
+    - Quản lý tổ chức: guide/account.md
+    - Quản lý gói dịch vụ: guide/billing-payment.md
+    - Không gian làm việc:
+      - Tạo không gian làm việc: guide/create-workspace.md
+      - Quản lý thành viên: guide/create-workspace.md
+    - Quản lý thư mục:
+      - Tạo thư mục: guide/create-folder.md
+    - Biểu mẫu:
+      - Tạo biểu mẫu: guide/create-form.md
