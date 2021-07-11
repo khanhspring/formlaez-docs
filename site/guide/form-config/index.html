@@ -1,0 +1,1048 @@
+
+<!doctype html>
+<html lang="vi" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://formlaez.com/guide/form-config/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.10">
+    
+    
+      
+        <title>Cấu hình biểu mẫu - Formlaez</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1fe995fd.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.f1a3b89f.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7C&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:""}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cau-hinh-bieu-mau" class="md-skip">
+          Vào thẳng nội dung
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Formlaez" class="md-header__button md-logo" aria-label="Formlaez" data-md-component="logo">
+      
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/formlaez.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Formlaez
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cấu hình biểu mẫu
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Tìm kiếm" placeholder="Tìm kiếm" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Trang chủ
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../getting-started/" class="md-tabs__link md-tabs__link--active">
+        Hướng dẫn
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Formlaez" class="md-nav__button md-logo" aria-label="Formlaez" data-md-component="logo">
+      
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/formlaez.svg" alt="logo">
+
+    </a>
+    Formlaez
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Trang chủ
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      <label class="md-nav__link" for="__nav_2">
+        Hướng dẫn
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Hướng dẫn" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Hướng dẫn
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/" class="md-nav__link">
+        Giới thiệu chung
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account/" class="md-nav__link">
+        Quản lý tổ chức
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../billing-payment/" class="md-nav__link">
+        Quản lý gói dịch vụ
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../workspace/" class="md-nav__link">
+        Quản lý không gian làm việc
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../folder/" class="md-nav__link">
+        Quản lý thư mục
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" checked>
+      
+      <label class="md-nav__link" for="__nav_2_6">
+        Biểu mẫu
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Biểu mẫu" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          Biểu mẫu
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Cấu hình biểu mẫu
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Cấu hình biểu mẫu
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tao-bieu-mau" class="md-nav__link">
+    Tạo biểu mẫu
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cau-hinh-bieu-mau_1" class="md-nav__link">
+    Cấu hình biểu mẫu
+  </a>
+  
+    <nav class="md-nav" aria-label="Cấu hình biểu mẫu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#giao-dien-trang-cau-hinh-bieu-mau" class="md-nav__link">
+    Giao diện trang cấu hình biểu mẫu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cau-hinh-bang-keo-tha" class="md-nav__link">
+    Cấu hình bằng kéo thả
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loai-truong-thong-tin" class="md-nav__link">
+    Loại trường thông tin
+  </a>
+  
+    <nav class="md-nav" aria-label="Loại trường thông tin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#oan-van-ban" class="md-nav__link">
+    Đoạn văn bản
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hinh-anh" class="md-nav__link">
+    Hình ảnh
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#video" class="md-nav__link">
+    Video
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#van-ban-ngan" class="md-nav__link">
+    Văn bản ngắn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#so" class="md-nav__link">
+    Số
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ngay-thang" class="md-nav__link">
+    Ngày tháng
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#danh-sach-xo-xuong" class="md-nav__link">
+    Danh sách xổ xuống
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#danh-sach-o-chon-nhieu" class="md-nav__link">
+    Danh sách ô chọn nhiều
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#danh-sach-o-chon-mot" class="md-nav__link">
+    Danh sách ô chọn một
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tai-file" class="md-nav__link">
+    Tải file
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anh-gia" class="md-nav__link">
+    Đánh giá
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nut-hai-trang-thai" class="md-nav__link">
+    Nút hai trạng thái
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nhom-du-lieu-lap-lai" class="md-nav__link">
+    Nhóm dữ liệu lặp lại
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xem-bieu-mau" class="md-nav__link">
+    Xem biểu mẫu
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../form-settings/" class="md-nav__link">
+        Cài đặt biểu mẫu
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../form-printing/" class="md-nav__link">
+        Cấu hình in ấn
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../form-sharing/" class="md-nav__link">
+        Chia sẻ biểu mẫu
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../form-responses/" class="md-nav__link">
+        Danh sách phản hồi
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../form-webhook/" class="md-nav__link">
+        Cấu hình Webhook
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tao-bieu-mau" class="md-nav__link">
+    Tạo biểu mẫu
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cau-hinh-bieu-mau_1" class="md-nav__link">
+    Cấu hình biểu mẫu
+  </a>
+  
+    <nav class="md-nav" aria-label="Cấu hình biểu mẫu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#giao-dien-trang-cau-hinh-bieu-mau" class="md-nav__link">
+    Giao diện trang cấu hình biểu mẫu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cau-hinh-bang-keo-tha" class="md-nav__link">
+    Cấu hình bằng kéo thả
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loai-truong-thong-tin" class="md-nav__link">
+    Loại trường thông tin
+  </a>
+  
+    <nav class="md-nav" aria-label="Loại trường thông tin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#oan-van-ban" class="md-nav__link">
+    Đoạn văn bản
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hinh-anh" class="md-nav__link">
+    Hình ảnh
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#video" class="md-nav__link">
+    Video
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#van-ban-ngan" class="md-nav__link">
+    Văn bản ngắn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#so" class="md-nav__link">
+    Số
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ngay-thang" class="md-nav__link">
+    Ngày tháng
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#danh-sach-xo-xuong" class="md-nav__link">
+    Danh sách xổ xuống
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#danh-sach-o-chon-nhieu" class="md-nav__link">
+    Danh sách ô chọn nhiều
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#danh-sach-o-chon-mot" class="md-nav__link">
+    Danh sách ô chọn một
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tai-file" class="md-nav__link">
+    Tải file
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anh-gia" class="md-nav__link">
+    Đánh giá
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nut-hai-trang-thai" class="md-nav__link">
+    Nút hai trạng thái
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nhom-du-lieu-lap-lai" class="md-nav__link">
+    Nhóm dữ liệu lặp lại
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xem-bieu-mau" class="md-nav__link">
+    Xem biểu mẫu
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="cau-hinh-bieu-mau">Cấu hình biểu mẫu</h1>
+<p>Biểu mẫu được phân loại vào quản lý trong các không gian làm việc và thư mục khác nhau, tuy theo cách bạn mong muốn.</p>
+<h2 id="tao-bieu-mau">Tạo biểu mẫu</h2>
+<p>Các bước đơn giản để tạo mới một biểu mẫu:</p>
+<ul>
+<li>B1: Vào trong một không gian làm việc hoặc một folder mà bạn muốn tạo biểu mẫu.</li>
+<li>B2: Kích nút <strong>Thêm mới</strong> ở góc trên bên phải -&gt; chọn <strong>Thêm mới biểu mẫu</strong></li>
+<li>B3: Hệ thống điều hướng bạn tới trang cấu hình biểu mẫu</li>
+</ul>
+<h2 id="cau-hinh-bieu-mau_1">Cấu hình biểu mẫu</h2>
+<h3 id="giao-dien-trang-cau-hinh-bieu-mau">Giao diện trang cấu hình biểu mẫu</h3>
+<p>Tại trang cấu hình biểu mẫu bạn sẽ nhìn thấy giao diện như sau</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/form-config.png" width="100%" />
+  <figcaption>Giao diện trang cấu hình biểu mẫu</figcaption>
+</figure>
+
+<p><strong>Trong đó:</strong></p>
+<ol>
+<li>Tiêu đề biểu mẫu. Bạn có thể kích vào và thay đổi tiêu đề.</li>
+<li>Danh mục các section biểu mẫu. Một biểu mẫu bạn có thể chia nhỏ thành các section khác nhau để dễ dàng chỉnh sửa, đặc biệt trong trường hợp biểu mẫu rất nhiều trường thông tin.</li>
+<li>Nội dung biểu mẫu. Nơi để kéo các trường thông tin vào từ thanh công cụ số (4).</li>
+<li>Thanh công cụ trường thông tin. Nơi chứa danh sách các trường thông tin mẫu để bạn có thể kéo vào vùng (3).</li>
+<li>Nút sao chép nhanh đường dẫn chia sẻ của biểu mẫu.</li>
+<li>Nút xem biểu mẫu.</li>
+</ol>
+<h3 id="cau-hinh-bang-keo-tha">Cấu hình bằng kéo thả</h3>
+<p>Bạn có thể kéo thả các trường thông tin từ thanh công cụ phía bên phải một cách dễ dàng</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/drag-n-drop.png" width="100%" />
+  <figcaption>Kéo thả trường thông tin</figcaption>
+</figure>
+
+<p>Bạn cũng có thể sắp xếp thứ tự các trường thông tin bằng cách kéo thả</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/reorder.png" width="100%" />
+  <figcaption>Sắp xếp trường thông tin</figcaption>
+</figure>
+
+<p>Nếu biểu mẫu của bạn có nhiều section bạn cũng có thể kéo thả để sắp xếp thứ tự các section đó</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/section-ordering.png" width="100%" />
+  <figcaption>Sắp xếp section</figcaption>
+</figure>
+
+<h3 id="loai-truong-thong-tin">Loại trường thông tin</h3>
+<p>Các loại trường thông tin được hỗ trợ:</p>
+<p><img align="right" alt="Thanh công cụ trường thông tin" src="https://formlaez.com/wp-content/uploads/2021/07/fields.png" /></p>
+<p><em>Trường hiển thị dữ liệu</em></p>
+<p><strong><em>(1) Đoạn văn bản</em></strong></p>
+<p><strong><em>(2) Hình ảnh</em></strong></p>
+<p><strong><em>(3) Video</em></strong></p>
+<p><em>Trường nhập dữ liệu</em></p>
+<p><strong><em>(4) Văn bản ngắn</em></strong></p>
+<p><strong><em>(5) Số</em></strong></p>
+<p><strong><em>(6) Ngày tháng</em></strong></p>
+<p><strong><em>(7) Danh sách xổ xuống</em></strong></p>
+<p><strong><em>(8) Danh sách ô chọn nhiều</em></strong></p>
+<p><strong><em>(9) Danh sách ô chọn một</em></strong></p>
+<p><strong><em>(10) Tải file</em></strong></p>
+<p><strong><em>(11) Đánh giá</em></strong></p>
+<p><strong><em>(12) Nút hai trạng thái</em></strong></p>
+<p><em>Trường thông tin nâng cao</em></p>
+<p><strong><em>(13) Nhóm dữ liệu lặp lại</em></strong></p>
+<p><br /></p>
+<h4 id="oan-van-ban">Đoạn văn bản</h4>
+<p><em>Thuộc nhóm trường hiển thị dữ liệu</em></p>
+<p>Cho phép đính kèm một đoạn văn bản vào biểu mẫu, đồng thời cho phép bạn định dạng đoạn văn bản đó theo ý muốn: căn chỉnh, kiểu chữ, font chữ,...</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/paragraph.png" width="100%" />
+  <figcaption>Ví dụ minh họa trường đoạn văn bản</figcaption>
+</figure>
+
+<h4 id="hinh-anh">Hình ảnh</h4>
+<p><em>Thuộc nhóm trường hiển thị dữ liệu</em></p>
+<p>Cho phép đính kèm hình ảnh vào biểu mẫu một cách dễ dàng.</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/image.png" width="100%" />
+  <figcaption>Ví dụ minh họa trường hình ảnh</figcaption>
+</figure>
+
+<h4 id="video">Video</h4>
+<p><em>Thuộc nhóm trường hiển thị dữ liệu</em></p>
+<p>Cho phép đính kèm video Youtube vào biểu mẫu.</p>
+<p><em>Lưu ý: Bạn phải dùng đường dẫn embed của Youtube. Đường dẫn này có định dạng như sau:</em></p>
+<p><code>https://www.youtube.com/embed/AAAaaaAAAaa</code></p>
+<p>Trong đó: <code>AAAaaaAAAaa</code> là id video Youtube bạn muốn sử dụng</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/video.png" width="100%" />
+  <figcaption>Ví dụ minh họa trường Video</figcaption>
+</figure>
+
+<h4 id="van-ban-ngan">Văn bản ngắn</h4>
+<p><em>Thuộc nhóm trường nhập dữ liệu</em></p>
+<p>Cho phép người dùng nhập một đoạn văn bản.</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/text.png" width="100%" />
+  <figcaption>Ví dụ minh họa trường văn bản ngắn</figcaption>
+</figure>
+
+<h4 id="so">Số</h4>
+<p><em>Thuộc nhóm trường nhập dữ liệu</em></p>
+<p>Cho phép người dùng nhập số.</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/number.png" width="100%" />
+  <figcaption>Ví dụ minh họa trường số</figcaption>
+</figure>
+
+<h4 id="ngay-thang">Ngày tháng</h4>
+<p><em>Thuộc nhóm trường nhập dữ liệu</em></p>
+<p>Cho phép người dùng nhập ngày tháng.</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/date.png" width="100%" />
+  <figcaption>Ví dụ minh họa trường ngày tháng</figcaption>
+</figure>
+
+<h4 id="danh-sach-xo-xuong">Danh sách xổ xuống</h4>
+<p><em>Thuộc nhóm trường nhập dữ liệu</em></p>
+<p>Cho phép người dùng chọn một lựa chọn từ danh sách xổ xuống.</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/select.png" width="100%" />
+  <figcaption>Ví dụ minh họa trường danh sách xổ xuống</figcaption>
+</figure>
+
+<h4 id="danh-sach-o-chon-nhieu">Danh sách ô chọn nhiều</h4>
+<p><em>Thuộc nhóm trường nhập dữ liệu</em></p>
+<p>Cho phép người dùng chọn nhiều lừa chọn từ danh sách thông qua các ô tích chọn.</p>
+<p>Bạn có thể tùy chọn hiển thị danh sách lựa chọn dạnh chữ hoặc hình ảnh trong mục cài đặt trường thông tin.</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/checkboxes.png" width="100%" />
+  <figcaption>Ví dụ minh họa trường danh sách ô chọn nhiều</figcaption>
+</figure>
+
+<h4 id="danh-sach-o-chon-mot">Danh sách ô chọn một</h4>
+<p><em>Thuộc nhóm trường nhập dữ liệu</em></p>
+<p>Cho phép người dùng chọn một lựa chọn từ danh sách.</p>
+<p>Bạn có thể tùy chọn hiển thị danh sách lựa chọn dạnh chữ hoặc hình ảnh trong mục cài đặt trường thông tin.</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/radios.png" width="100%" />
+  <figcaption>Ví dụ minh họa trường danh sách ô chọn một</figcaption>
+</figure>
+
+<h4 id="tai-file">Tải file</h4>
+<p><em>Thuộc nhóm trường nhập dữ liệu</em></p>
+<p>Cho phép người dùng tải lên file tài liệu.</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/files.png" width="100%" />
+  <figcaption>Ví dụ minh họa trường tải file</figcaption>
+</figure>
+
+<h4 id="anh-gia">Đánh giá</h4>
+<p><em>Thuộc nhóm trường nhập dữ liệu</em></p>
+<p>Cho phép người dùng chọn giá trị đánh giá.</p>
+<p>Bạn có thể tùy chọn mức độ đánh gi (mặc định là từ 1 - 5) và ký tự hiển thị (mặc định là sao).</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/rating.png" width="100%" />
+  <figcaption>Ví dụ minh họa trường đánh giá</figcaption>
+</figure>
+
+<h4 id="nut-hai-trang-thai">Nút hai trạng thái</h4>
+<p><em>Thuộc nhóm trường nhập dữ liệu</em></p>
+<p>Cho phép người dùng chọn một trong hai trạng thái (Bạn có thể dùng trong các trường hợp cần lựa chọn đúng/sai, có/không,...).</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/switch.png" width="100%" />
+  <figcaption>Ví dụ minh họa trường nút hai trạng thái</figcaption>
+</figure>
+
+<h4 id="nhom-du-lieu-lap-lai">Nhóm dữ liệu lặp lại</h4>
+<p><em>Thuộc nhóm trường nâng cao</em></p>
+<p>Cho phép người dùng tạo ra một vùng bao gồm các trường thông tin lặp lại.</p>
+<p>Phù hợp trong trường hợp biểu mẫu của bạn có nhiều thông tin được nhập nhiều lần, như danh sách nhân viên, danh sách trang thiết bị,...</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/loop.png" width="100%" />
+  <figcaption>Ví dụ minh họa nhóm dữ liệu lặp</figcaption>
+</figure>
+
+<p>Hướng dẫn sử dụng:</p>
+<ul>
+<li>B1: Kéo loại trường thông tin lặp lại vào biểu mẫu (biểu tưởng lặp lại dưới cùng trên thanh công cụ) để tạo ra vùng lặp</li>
+<li>B2: Chọn vào trường thông tin vừa kéo vào, sao cho trường thông tin và thanh công cụ chuyển thành mày vàng (như hình trên)</li>
+<li>B3: Kéo các trường thông tin từ thanh công cụ vào vùng lặp lại này</li>
+</ul>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/loop-drag-n-drop.png" width="100%" />
+  <figcaption>Cấu hình nhóm trường dữ liệu lặp lại</figcaption>
+</figure>
+
+<h3 id="xem-bieu-mau">Xem biểu mẫu</h3>
+<p>Sau khi cấu hình xong một biểu mẫu. Bạn có thể xem và nhập biểu mẫu bằng cách kích vào nút có biểu tượng con mắt trên thanh menu.</p>
+<figure>
+  <img src="https://formlaez.com/wp-content/uploads/2021/07/view.png" width="100%" />
+  <figcaption>Ví dụ một biểu mẫu điện tử</figcaption>
+</figure>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../folder/" class="md-footer__link md-footer__link--prev" aria-label="Trước: Quản lý thư mục" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Trước
+              </span>
+              Quản lý thư mục
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../form-settings/" class="md-footer__link md-footer__link--next" aria-label="Sau: Cài đặt biểu mẫu" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Sau
+              </span>
+              Cài đặt biểu mẫu
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections"], "translations": {"clipboard.copy": "Sao ch\u00e9p v\u00e0o b\u1ed9 nh\u1edb", "clipboard.copied": "Sao ch\u00e9p xong", "search.config.lang": "vi", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "T\u00ecm ki\u1ebfm", "search.result.placeholder": "Nh\u1eadp \u0111\u1ec3 b\u1eaft \u0111\u1ea7u t\u00ecm ki\u1ebfm", "search.result.none": "Kh\u00f4ng t\u00ecm th\u1ea5y t\u00e0i li\u1ec7u li\u00ean quan", "search.result.one": "1 t\u00e0i li\u1ec7u li\u00ean quan", "search.result.other": "# t\u00e0i li\u1ec7u li\u00ean quan", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.ddd52ceb.min.js"></script>
+      
+    
+  </body>
+</html>

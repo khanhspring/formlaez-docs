@@ -10,6 +10,7 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.highlight
   - pymdownx.inlinehilite
+  - admonition
 theme:
   name: 'material'
   logo: https://formlaez.com/wp-content/uploads/2021/07/formlaez.svg
@@ -26,10 +27,12 @@ nav:
     - Giới thiệu chung: guide/getting-started.md
     - Quản lý tổ chức: guide/account.md
     - Quản lý gói dịch vụ: guide/billing-payment.md
-    - Không gian làm việc:
-      - Tạo không gian làm việc: guide/create-workspace.md
-      - Quản lý thành viên: guide/create-workspace.md
-    - Quản lý thư mục:
-      - Tạo thư mục: guide/create-folder.md
+    - Quản lý không gian làm việc: guide/workspace.md
+    - Quản lý thư mục: guide/folder.md
     - Biểu mẫu:
-      - Tạo biểu mẫu: guide/create-form.md
+      - Cấu hình biểu mẫu: guide/form-config.md
+      - Cài đặt biểu mẫu: guide/form-settings.md
+      - Cấu hình in ấn: guide/form-printing.md
+      - Chia sẻ biểu mẫu: guide/form-sharing.md
+      - Danh sách phản hồi: guide/form-responses.md
+      - Cấu hình Webhook: guide/form-webhook.md

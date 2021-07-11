@@ -2,42 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://formlaez.com/</loc>
-         <lastmod>2021-07-10</lastmod>
+         <lastmod>2021-07-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://formlaez.com/guide/account-member/</loc>
-         <lastmod>2021-07-10</lastmod>
+         <lastmod>2021-07-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://formlaez.com/guide/account/</loc>
-         <lastmod>2021-07-10</lastmod>
+         <lastmod>2021-07-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://formlaez.com/guide/billing-payment/</loc>
-         <lastmod>2021-07-10</lastmod>
+         <lastmod>2021-07-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://formlaez.com/guide/create-folder/</loc>
-         <lastmod>2021-07-10</lastmod>
+         <loc>https://formlaez.com/guide/folder/</loc>
+         <lastmod>2021-07-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://formlaez.com/guide/create-form/</loc>
-         <lastmod>2021-07-10</lastmod>
+         <loc>https://formlaez.com/guide/form-config/</loc>
+         <lastmod>2021-07-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://formlaez.com/guide/create-workspace/</loc>
-         <lastmod>2021-07-10</lastmod>
+         <loc>https://formlaez.com/guide/form-printing/</loc>
+         <lastmod>2021-07-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://formlaez.com/guide/form-responses/</loc>
+         <lastmod>2021-07-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://formlaez.com/guide/form-settings/</loc>
+         <lastmod>2021-07-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://formlaez.com/guide/form-sharing/</loc>
+         <lastmod>2021-07-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://formlaez.com/guide/form-webhook/</loc>
+         <lastmod>2021-07-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://formlaez.com/guide/getting-started/</loc>
-         <lastmod>2021-07-10</lastmod>
+         <lastmod>2021-07-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://formlaez.com/guide/workspace/</loc>
+         <lastmod>2021-07-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
